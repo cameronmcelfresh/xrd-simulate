@@ -8,7 +8,7 @@ If the user is unfamiliar with the basics mathematics behind XRD diffraction a b
 
 ## Installing
 The script **XRD_Intensity_Simulation.m** controls the entirity of the simulation. To begin the program simply run this script with the following functions and files in the same directory:
-- initialize.m
+- dialogue.m
 - dspace.m
 - theta_s_calc.m
 - scatterfactor.m
