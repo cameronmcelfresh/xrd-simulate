@@ -32,9 +32,10 @@ The script **XRD_Intensity_Simulation.m** controls the entirity of the simulatio
 
 
 
-<img src="https://github.com/cameronmcelfresh/kernel-average-misorientation/blob/master/kernel_math.JPG" width="600">
+<img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_readme1.JPG" width="600">
 
 
+<img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_readme2.JPG" width="600">
 
 
 
