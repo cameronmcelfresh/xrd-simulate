@@ -32,10 +32,10 @@ The script **XRD_Intensity_Simulation.m** controls the entirity of the simulatio
 
 
 
-<img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_readme1.JPG" width="700">
+<img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_readme1.JPG" width="750">
 
 
-<img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_readme2.JPG" width="700">
+<img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_readme2.JPG" width="750">
 
 
 
