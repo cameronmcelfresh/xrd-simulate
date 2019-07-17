@@ -34,28 +34,31 @@ No parameters need to be pre-defined unless the user requires a rule of mixtures
 To operate the program, use the following procedure:
 1. Run XRD_Intensity_Simulation.m
 2. Select X-Ray source
+<img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_1.JPG" width="400">
+
 3. Select a crystal type
+<img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_2.JPG" width="400">
+
 4. Select atom type
+<img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_3.JPG" width="400">
+
 5. Enter the lattice parameter (angstroms)
+<img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_4.JPG" width="400">
+
 
 #### Output
 Following the input of the above information (Source: Cu K Alpha, Crystal: BCC, Atom: W, Lattice Parameter: 3.165), the program will output:
 
-----------------------------------
-----------------------------------
-Crystal Type: BCC\
-Element(s): W\
-Lattice Parameter: 3.165 A\
-2 Theta    (hkl)   Relative Intensity\
-  40.25     110     1.000000\
-  58.23     200     0.171720\
-  73.16     211     0.351100\
-  86.96     220     0.115580\
-  100.59    310     0.191202\
-  114.87    222     0.064902\
+<img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_out1.JPG" width="600">
 
----------------------------------- 
-----------------------------------
+<img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_out2.JPG" width="600">
+
+Basic results can be confirmed using crystallographic databases such as ICSD (https://www.fiz-karlsruhe.de/en/produkte-und-dienstleistungen/inorganic-crystal-structure-database-icsd)
+
+An experimentally-generated XRD spectrum from analysis of a W specimen is shown below.
+
+<img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_compare.JPG" width="600">
+
 
 ## Just a little bit of background math
 
