@@ -43,16 +43,16 @@ Following the input of the above information (Source: Cu K Alpha, Crystal: BCC, 
 
 ----------------------------------
 ----------------------------------
-Crystal Type: BCC/
-Element(s): W /
-Lattice Parameter: 3.165 A/
-2 Theta    (hkl)   Relative Intensity/
-  40.25     110     1.000000 /
-  58.23     200     0.171720 /
-  73.16     211     0.351100 /
-  86.96     220     0.115580 /
-  100.59    310     0.191202 /
-  114.87    222     0.064902 /
+Crystal Type: BCC\
+Element(s): W\
+Lattice Parameter: 3.165 A\
+2 Theta    (hkl)   Relative Intensity\
+  40.25     110     1.000000\
+  58.23     200     0.171720\
+  73.16     211     0.351100\
+  86.96     220     0.115580\
+  100.59    310     0.191202\
+  114.87    222     0.064902\
 
 ---------------------------------- 
 ----------------------------------
