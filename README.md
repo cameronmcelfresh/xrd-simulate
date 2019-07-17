@@ -20,23 +20,46 @@ The script **XRD_Intensity_Simulation.m** controls the entirity of the simulatio
 - compareintensity.m
 
 ## Simulating XRD Patterns
+In its current form, this script is designed to simulate a substance's XRD pattern the user-defined parameters:
+1. Type of X-Ray source (Cu, Co, Mo, Cr, Fe)
+2. Crystal Structure (BCC, FCC, SC, CsCl, HCP, Diamond)
+3. Elemental Components
+4. Lattice Spacing
 
+The curvature of the XRD peaks plotted are provided for visualization's sake and do not represent expected FWHM. Modifying the compareintesity.m code can easily configure the plotting characteristics. Likewise, mixtures of components can be achieved by using rule of mixtures for the atomic scattering factors of various components - though caution should be taken at the validity of the results.
 
 #### Input
+No parameters need to be pre-defined unless the user requires a rule of mixtures component. In this case, the user should edit Scatteringdata.xlsx and add the desired component to the end of the sheet.
 
+To operate the program, use the following procedure:
+1. Run XRD_Intensity_Simulation.m
+2. Select X-Ray source
+3. Select a crystal type
+4. Select atom type
+5. Enter the lattice parameter (angstroms)
 
 #### Output
+Following the input of the above information (Source: Cu K Alpha, Crystal: BCC, Atom: W, Lattice Parameter: 3.165), the program will output:
 
+----------------------------------
+----------------------------------
+Crystal Type: BCC/
+Element(s): W /
+Lattice Parameter: 3.165 A/
+2 Theta    (hkl)   Relative Intensity/
+  40.25     110     1.000000 /
+  58.23     200     0.171720 /
+  73.16     211     0.351100 /
+  86.96     220     0.115580 /
+  100.59    310     0.191202 /
+  114.87    222     0.064902 /
+
+---------------------------------- 
+----------------------------------
 
 ## Just a little bit of background math
 
-
-
 <img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_readme1.JPG" width="750">
 
-
 <img src="https://github.com/cameronmcelfresh/xrd-simulate/blob/master/xrd_readme2.JPG" width="750">
-
-
-
   
