@@ -2,7 +2,7 @@
 MATLAB Code to Simulate XRD Patterns
 
 ## Getting Started
-This collection of MATLAB scripts is designed to simulate XRD patterns using the basic theory of x-ray interaction with atoms in a bulk material. The calculations are based off of information that can be found in Structure of Materials: An Introduction to Crystallography, Diffraction, and Symmetry by Marc De Gaef and Michael E. McHenry. 
+This collection of MATLAB scripts is designed to simulate relative-intensity XRD patterns using the basic theory of x-ray interaction with atoms in a bulk material. The calculations are based off of information that can be found in Structure of Materials: An Introduction to Crystallography, Diffraction, and Symmetry by Marc De Gaef and Michael E. McHenry. 
 
 If the user is unfamiliar with the basics mathematics behind XRD, a brief background math section is provided below. If the user is unfamiliar with crystallography the McHenry text or another basic text is strongly suggested. 
 
